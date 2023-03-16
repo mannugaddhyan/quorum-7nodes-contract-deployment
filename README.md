@@ -47,6 +47,7 @@ If the node 1 and 7 are doing a private tx. then the other nodes won't be able t
 
 END.
 
-
+Output: 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/54052682/225610064-70debb31-0b56-45d4-9fd7-2f9872e635c1.png">
 
 
