@@ -40,7 +40,12 @@ Other nodes won't be able to view the state of the contract.
 
 Step 11: Run the command: loadScript('/examples/private-contract.js') 
 
-Step 12: 
+Step 12: This will return you the tx hash and the contract address of the deployed contract. use the address to call the various functions of your contract and test.
+We can also open new terminals and run the command $ docker exec -it < your node container name > geth attach /qdata/dd/geth.ipc.
+After opening geth Javascript console to a desired node call the contract functions and check if the state variables are in sync with those nodes which are in privateFor field. 
+If the node 1 and 7 are doing a private tx. then the other nodes won't be able to get the coorect state of the variable and view those txs. 
+
+END.
 
 
 
